@@ -1,7 +1,8 @@
 [BITS 16]
+
 section main
-global _init
-_init:
+global init
+init:
 	cli
 	cld
 
@@ -14,5 +15,5 @@ _init:
 	xchg bx, bx
 
 section reset
-	jmp _init
-align 16
+	jmp init
+	align 16
