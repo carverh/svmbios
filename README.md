@@ -1,8 +1,12 @@
 # svmbios
 
+[![Discord](https://img.shields.io/discord/316302644291305472.svg)](https://discord.gg/HjJCwm5)
+
 `svmbios` is a project that implements a fully operational
 BIOS for virtual machines, using tools that any Linux machine
 should have.
+
+## Building
 
 To build it for qemu, clone this repo and run:
 ```bash
